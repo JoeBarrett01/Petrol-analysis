@@ -1,0 +1,134 @@
+---
+title: "Petrol Analysis"
+author: "Joseph Barrett"
+date: '2022-11-09'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lawstat)
+library(EnvStats)
+library(TeachingDemos)
+library(dplyr)
+library(tidyr)
+library(fitdistrplus)
+library(Hmisc)
+```
+
+# Analysis of Petrol Data Collection
+
+```{r}
+data <- read.csv("Data Collection_seconds.csv")
+df = data.frame(data)
+```
+
+```{r}
+unique(df$Type.of.Customer..Wait.to.see.where.they.go.)
+```
+
+
+```{r}
+# describe(data)
+summary(data)
+```
+## Testing for Total Time on Property 
+```{r}
+shapiro.test(data$Total.Time.on.Property)
+```
+Hence, we cannot assume normality. 
+
+Our samples are independent, so we now test for symetricity. 
+
+```{r}
+symmetry.test(data$Total.Time.on.Property)
+```
+
+
+```{r}
+na.omit(data$Total.Time.on.Property)
+print(data$Total.Time.on.Property)
+```
+
+# Filtering to find distribution of each input by time in QUEUE
+
+## pump only
+
+```{r}
+pump <- filter(df, df$Type.of.Customer..Wait.to.see.where.they.go.=="Pump Only")
+pump_queue_time <- pump$Time.spent.in.Queue
+#pump_total_time
+descdist(pump$Time.spent.in.Queue, discrete = FALSE)
+
+pump_dist <- fitdist(pump_queue_time, "exp")
+summary(pump_dist)
+plot(pump_dist)
+```
+## Pump and Store
+
+```{r}
+store_and_pump <- filter(df, df$Type.of.Customer..Wait.to.see.where.they.go.=="Store and Pump")
+store_pump_queue_time <- store_and_pump$Time.spent.in.Queue
+#store_pump_total_time
+
+descdist(store_pump_queue_time, discrete = FALSE)
+store_and_pump_dist <- fitdist(store_pump_queue_time, "exp")
+
+summary(store_and_pump_dist)
+plot(store_and_pump_dist)
+```
+
+
+## Store only
+Not enough data, assume normal distribution. 
+
+## Time at pump for store and pump only
+```{r}
+
+
+store_and_pump <- filter(df, df$Type.of.Customer..Wait.to.see.where.they.go.=="Store and Pump")
+store_and_pump
+store_pump_pump_time <- store_and_pump$Time.Spent.At.the.Pump..0.if.not.at.the.pump.at.all.
+
+descdist(store_pump_pump_time, discrete = FALSE)
+store_and_pump_gas_dist <- fitdist(store_pump_pump_time, "gamma")
+
+summary(store_and_pump_gas_dist)
+plot(store_and_pump_gas_dist)
+
+
+```
+
+```{r}
+1073798*.23
+```
+
+
+# Filtering to find distribution of each input, by total time
+## pump only
+
+```{r}
+pump <- filter(df, df$Type.of.Customer..Wait.to.see.where.they.go.=="Pump Only")
+pump_total_time <- pump$Total.Time.on.Property
+descdist(pump$Total.Time.on.Property, discrete = FALSE)
+pump_dist <- fitdist(pump_total_time, "gamma")
+summary(pump_dist)
+plot(pump_dist)
+```
+```{r}
+1/0.02584788
+```
+
+## Pump and Store
+
+```{r}
+store_and_pump <- filter(df, df$Type.of.Customer..Wait.to.see.where.they.go.=="Store and Pump")
+store_pump_total_time <- store_and_pump$Total.Time.on.Property
+
+descdist(store_pump_total_time, discrete = FALSE)
+store_and_pump_dist <- fitdist(store_pump_total_time, "unif")
+
+summary(store_and_pump_dist)
+plot(store_and_pump_dist)
+```
+
