@@ -1,0 +1,175 @@
+﻿Type of Customer (Wait to see where they go) ,Total Time on Property,Time spent in Queue,Time Spent At the Pump (0 if not at the pump at all),Time Spent in Store (0 if Not in the store),,min,sec,total sec
+Pump Only,135,12,108,0,,0,0,0
+Pump Only,122,7,107,0,,0,0,0
+Pump Only,163,35,123,0,,0,0,0
+Pump Only,172,52,108,0,,0,0,0
+Pump Only,60,7,32,0,,0,0,0
+Pump Only,132,4,121,0,,0,0,0
+Store and Pump,374,18,308,304,,0,0,0
+Pump Only,257,10,232,0,,0,0,0
+Pump Only,160,12,148,0,,0,0,0
+Pump Only,94,14,65,0,,0,0,0
+Pump Only,362,14,333,0,,0,0,0
+Store and Pump,376,16,342,270,,0,0,0
+Pump Only,196,42,139,0,,0,0,0
+Pump Only,122,10,101,0,,0,0,0
+Store and Pump,225,9,208,110,,0,0,0
+Pump Only,115,10,90,0,,0,0,0
+Pump Only,209,56,140,0,,0,0,0
+Pump Only,207,56,135,0,,0,0,0
+Pump Only,200,40,151,0,,0,0,0
+Pump Only,199,9,174,0,,0,0,0
+Pump Only,209,15,180,0,,0,0,0
+Store and Pump,327,7,312,210,,0,0,0
+Pump Only,355,21,315,0,,0,0,0
+Pump Only,344,16,303,0,,0,0,0
+Pump Only,306,7,282,0,,0,0,0
+Pump Only,230,21,175,0,,0,0,0
+Pump Only,265,6,251,0,,0,0,0
+Pump Only,199,19,152,0,,0,0,0
+Pump Only,207,21,165,0,,0,0,0
+Store and Pump,403,14,369,0,,0,0,0
+Pump Only,131,7,111,0,,0,0,0
+Pump Only,279,17,244,0,,0,0,0
+Pump Only,158,8,141,0,,0,0,0
+Pump Only,307,94,189,0,,0,0,0
+Pump Only,382,191,184,0,,0,0,0
+Store Only,180,180,0,0,,0,0,0
+Pump Only,237,24,201,0,,0,0,0
+Pump Only,190,16,167,0,,0,0,0
+Pump Only,193,0,182,0,,0,0,0
+Pump Only,146,12,120,0,,0,0,0
+Pump Only,175,16,149,0,,0,0,0
+Pump Only,287,119,155,0,,0,0,0
+Store and Pump,231,16,138,58,,0,0,0
+Pump Only,223,50,143,0,,0,0,0
+Pump Only,175,41,122,0,,0,0,0
+Pump Only,174,14,146,0,,0,0,0
+Store and Pump,243,10,143,80,,0,0,0
+Pump Only,129,7,101,0,,0,0,0
+Pump Only,211,31,171,0,,0,0,0
+Pump Only,143,14,113,0,,0,0,0
+Pump Only,217,17,142,45,,0,0,0
+Store and Pump,298,49,149,90,,0,0,0
+Store and Pump,309,42,143,112,,0,0,0
+Pump Only,268,38,169,0,,0,0,0
+Store and Pump,281,31,160,80,,0,0,0
+Pump Only,271,120,142,0,,0,0,0
+Pump Only,236,88,131,0,,0,0,0
+Store and Pump,251,18,149,70,,0,0,0
+Store and Pump,385,72,156,145,,0,0,0
+Store Only,373,144,0,216,,0,0,0
+Pump Only,331,139,177,0,,0,0,0
+Store and Pump,408,204,137,58,,0,0,0
+Store and Pump,181,17,63,84,,0,0,0
+Store and Pump,430,64,173,165,,0,0,0
+Pump Only,197,36,155,0,,0,0,0
+Pump Only,195,62,103,0,,0,0,0
+Pump Only,352,68,187,0,,0,0,0
+Store and Pump,361,131,214,16,,0,0,0
+Pump Only,300,95,193,0,,0,0,0
+Store and Pump,410,151,144,102,,0,0,0
+Store and Pump,420,236,92,58,,0,0,0
+Pump Only,134,17,102,0,,0,0,0
+Pump Only,364,128,209,0,,0,0,0
+Pump Only,196,59,112,0,,0,0,0
+Pump Only,309,178,57,45,,0,0,0
+Store and Pump,308,33,111,132,,0,0,0
+Pump Only,141,17,105,0,,0,0,0
+Store and Pump,399,83,154,144,,0,0,0
+Store and Pump,385,132,105,131,,0,0,0
+Store and Pump,370,118,241,11,,0,0,0
+Pump Only,295,120,146,0,,0,0,0
+Store and Pump,198,12,179,60,,0,0,0
+Pump Only,114,62,45,0,,0,0,0
+Pump Only,291,179,104,0,,0,0,0
+Store and Pump,347,15,311,120,,0,0,0
+Pump Only,192,13,173,0,,0,0,0
+Store and Pump,199,8,183,120,,0,0,0
+Pump Only,50,11,31,0,,0,0,0
+Pump Only,279,25,230,0,,0,0,0
+Pump Only,158,31,120,0,,0,0,0
+Pump Only,160,36,118,0,,0,0,0
+Pump Only,261,32,222,0,,0,0,0
+Pump Only,234,133,93,0,,0,0,0
+Store and Pump,212,15,191,60,,0,0,0
+Pump Only,189,67,111,0,,0,0,0
+Pump Only,256,94,157,0,,0,0,0
+Pump Only,231,29,195,0,,0,0,0
+Pump Only,331,144,177,60,,0,0,0
+Store and Pump,178,73,99,6,,0,0,0
+Pump Only,283,99,178,0,,0,0,0
+Pump Only,206,30,170,0,,0,0,0
+Pump Only,200,32,162,0,,0,0,0
+Pump Only,1,0,0,0,,0,0,0
+Pump Only,267,16,241,0,,0,0,0
+Pump Only,238,14,214,0,,0,0,0
+Store and Pump,183,14,156,60,,0,0,0
+Pump Only,327,7,310,180,,0,0,0
+Pump Only,153,9,116,0,,0,0,0
+Pump Only,293,13,172,0,,0,0,0
+Pump Only,252,11,194,0,,0,0,0
+Pump Only,141,11,110,0,,0,0,0
+Pump Only,188,9,162,0,,0,0,0
+Pump Only,155,11,86,0,,0,0,0
+Pump Only,272,17,239,0,,0,0,0
+Store and Pump,306,10,171,125,,0,0,0
+Pump Only,142,18,114,0,,0,0,0
+Pump Only,148,10,125,0,,0,0,0
+Pump Only,297,11,239,0,,0,0,0
+Pump Only,97,33,61,0,,0,0,0
+Pump Only,133,27,102,0,,0,0,0
+Pump Only,378,8,190,0,,0,0,0
+Pump Only,178,7,152,0,,0,0,0
+Pump Only,251,6,231,0,,0,0,0
+Pump Only,229,49,163,0,,0,0,0
+Pump Only,311,19,242,0,,0,0,0
+Pump Only,215,30,181,0,,0,0,0
+Pump Only,154,7,141,0,,0,0,0
+Store and Pump,244,4,73,167,,0,0,0
+Pump Only,126,12,108,0,,0,0,0
+Store and Pump,410,3,188,189,,0,0,0
+Pump Only,231,5,218,0,,0,0,0
+Pump Only,210,11,182,0,,0,0,0
+Pump Only,245,5,238,0,,0,0,0
+Pump Only,190,2,183,0,,0,0,0
+Pump Only,183,13,167,0,,0,0,0
+Store and Pump,346,3,130,213,,0,0,0
+Pump Only,199,63,124,0,,0,0,0
+Pump Only,151,10,132,0,,0,0,0
+Pump Only,159,8,145,0,,0,0,0
+Pump Only,132,2,127,0,,0,0,0
+Pump Only,168,33,123,0,,0,0,0
+Store and Pump,302,90,116,96,,0,0,0
+Pump Only,165,12,153,0,,0,0,0
+Store and Pump,203,28,120,55,,0,0,0
+Pump Only,130,8,122,0,,0,0,0
+Store and Pump,498,32,125,341,,0,0,0
+Store and Pump,252,62,114,76,,0,0,0
+Pump Only,167,13,154,0,,0,0,0
+Store and Pump,183,6,83,94,,0,0,0
+Pump Only,228,106,122,0,,0,0,0
+Pump Only,186,85,101,0,,0,0,0
+Store and Pump,353,99,110,144,,0,0,0
+Store and Pump,284,57,96,131,,0,0,0
+Store and Pump,408,179,137,92,,0,0,0
+Pump Only,261,101,160,0,,0,0,0
+Pump Only,306,184,122,0,,0,0,0
+Pump Only,278,161,117,0,,0,0,0
+Store and Pump,300,97,99,104,,0,0,0
+Pump Only,264,116,148,0,,0,0,0
+Pump Only,206,143,63,0,,0,0,0
+Store and Pump,457,212,80,165,,0,0,0
+Pump Only,179,35,144,0,,0,0,0
+Pump Only,259,114,145,0,,0,0,0
+Pump Only,337,170,167,0,,0,0,0
+Pump Only,235,60,175,0,,0,0,0
+Store and Pump,265,96,113,56,,0,0,0
+Pump Only,120,5,115,0,,0,0,0
+Pump Only,143,5,138,0,,0,0,0
+Pump Only,226,18,208,0,,0,0,0
+Pump Only,158,36,122,0,,0,0,0
+Pump Only,146,5,141,0,,0,0,0
+Store and Pump,152,6,88,58,,0,0,0
+Store and Pump,252,13,124,115,,0,0,0
+,,,,,,,,
